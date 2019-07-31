@@ -25,6 +25,7 @@ class _HomeState extends State<Home> {
                   height: size.height,
                   child :new Image.asset('assets/HomeWallpaper.jpg', fit: BoxFit.cover,)
                 ),
+                
                 Padding(
                   padding: EdgeInsets.only(top:size.height - size.height/4),
                   child: Container(
